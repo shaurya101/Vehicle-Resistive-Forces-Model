@@ -61,19 +61,19 @@ Acceleration force - The force which helps a vehicle reach a predetermined speed
 
  EQUATIONS
  --------
- *Forces
+ Forces
   
-  Fa=0.5*rho*A*Cd*V^2
+  * Fa=0.5*rho*A*Cd*V^2
   
-  Fg=GVW*sin(theta)
+  * Fg=GVW*sin(theta)
   
-  Fe=GVW*Crf
+  * Fe=GVW*Crf
   
-  F=ma
+  * F=ma
  
- Wheel Torque = Total Resistive Forces * Radius of Wheel
+ * Wheel Torque = Total Resistive Forces * Radius of Wheel
  
- Wheel Speed = (Velocity/(2*pi/60)) * Radius of Wheel
+ * Wheel Speed = (Velocity/(2*pi/60)) * Radius of Wheel
                      
 
 
