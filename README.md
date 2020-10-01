@@ -61,7 +61,6 @@ Acceleration force - The force which helps a vehicle reach a predetermined speed
 
  EQUATIONS
  --------
- Forces
   
   * Fa=0.5*rho*A*Cd*V^2
   
