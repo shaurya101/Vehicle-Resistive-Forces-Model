@@ -10,12 +10,11 @@ The following forces were modelled
 ---Rolling resistance force
 ---Acceleration force
 
-And
----
+Results Obtained
+----------------
 
 --- Wheel speed and Wheel Torque were obtained
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 OVERVIEW
 --------
@@ -37,31 +36,32 @@ A modern Electric vehicle's powertrain simulation includes simulating the follow
 In this project we model the Vehicle Resistive Forces of the vehicle in the chassis. 
 
 Aerodynamic force - Often called the drag force, it is the resistive force a vehicle experiences due to air.
-            
-   Fa=0.5*rho*A*Cd*V^2
    
 Gradient force - Force due to the slop or inclination of the road.
-
-   Fg=GVW*sin(theta)
    
 Rolling resistance force - Force that opposes the forward motion of the vehicle at the point of contact of tire and road. Rolling Resistance force is the force
                            which stops the car on coasting.
-                           
-   Fe=GVW*Crf
    
 Acceleration force - The force which helps a vehicle reach a predetermined speed in a certain amount of time. This force mostly depends on the drive cycle of a  
                      region or an individual driving style.
-                     
-   F=ma
    
  Wheel Torque = Total Resistive Forces * Radius of Wheel
  
  Wheel Speed = (Velocity/(2*pi/60)) * Radius of Wheel
-   
+
+
+
+ EQUATIONS
+ --------
+ Forces-
+   Fa=0.5*rho*A*Cd*V^2
+   Fg=GVW*sin(theta)
+   Fe=GVW*Crf
+   F=ma
+ 
+ Wheel Torque = Total Resistive Forces * Radius of Wheel
+ Wheel Speed = (Velocity/(2*pi/60)) * Radius of Wheel
                      
-
-
-
 
 
 
@@ -84,7 +84,7 @@ WORKFLOW
 PROCEDURE
 ---------
 
-IMPORTANT---Import all the above files into one directory and open the same directory in Scilab.
+Important---Import all the above files into one directory and open the same directory in Scilab.
 
 
 %%%%%%%% For Track 1 %%%%%%%%
