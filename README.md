@@ -20,21 +20,25 @@ OVERVIEW
 --------
 
 A modern Electric vehicle's powertrain simulation includes simulating the following
+
 *Chassis 
+
 *Transmission 
+
 *Motor
+
 *Battery 
 
---- In chassis the Acceleration of the vehicle, Vehicle Resistive Forces, Resistive Power are simulated and Wheel Torque and Wheel RPM are obtained.
+- In chassis the Acceleration of the vehicle, Vehicle Resistive Forces, Resistive Power are simulated and Wheel Torque and Wheel RPM are obtained.
 
---- The output of the Chassis model namely the wheel torque and rpm are inputs to the Transmission simulation to obtain Transmission Torque and Transmission RPM.
+- The output of the Chassis model namely the wheel torque and rpm are inputs to the Transmission simulation to obtain Transmission Torque and Transmission RPM.
 
---- These outputs are then utilised to obtain the Motor Torque,Motor RPM, Motor Power. Also from this information we can decide which motor will be the best fit 
+- These outputs are then utilised to obtain the Motor Torque,Motor RPM, Motor Power. Also from this information we can decide which motor will be the best fit 
     for the vehicle according to the requirements.
     
---- Lastly, a voltage and current profile is prepared from the obtained values and a suitable battery is designed. 
+- Lastly, a voltage and current profile is prepared from the obtained values and a suitable battery is designed. 
 
---- Note - Power electronics such as AC-DC converter, buck-boost converters, inverters are also employed and are vital in obtaining the battery profile. 
+- Note - Power electronics such as AC-DC converter, buck-boost converters, inverters are also employed and are vital in obtaining the battery profile. 
 
 
 In this project we model the Vehicle Resistive Forces of the vehicle in the chassis. 
@@ -57,7 +61,7 @@ Acceleration force - The force which helps a vehicle reach a predetermined speed
 
  EQUATIONS
  --------
- Forces-
+ *Forces
   
   Fa=0.5*rho*A*Cd*V^2
   
@@ -74,7 +78,6 @@ Acceleration force - The force which helps a vehicle reach a predetermined speed
 
 
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 WORKFLOW
 --------
@@ -83,9 +86,7 @@ WORKFLOW
 * Resistive Forces Modelling 
 * Modelling Wheel Torque
 * Modelling Wheel Speed (rpm)
-* Obtaining results 
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+* Obtaining results
 
 
 
