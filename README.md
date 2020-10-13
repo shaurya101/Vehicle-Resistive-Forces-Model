@@ -111,7 +111,7 @@ Important---Import all the above files into one directory and open the same dire
 
 * Open "Vehicle Resistive forces xcos model.zcos" in Xcos.
 * Run the "Imports_track2.sce"  to import track data 2 into the Scilab workspace.
-* * Code 'Set context' in Xcos (See "Set context.pdf" for reference)--> Simulation tab(Xcos)-->Set context
+* Code 'Set context' in Xcos (See "Set context.pdf" for reference)--> Simulation tab(Xcos)-->Set context
 * Simulate the model
 * Run the simulation 
 * The respective results and graph are obtained.
